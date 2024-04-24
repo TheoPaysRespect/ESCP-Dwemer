@@ -10,16 +10,42 @@
 		</descriptionHyperlinks>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.RaceProperties">
+				<heatstrokeResistant>true</heatstrokeResistant>
+				<heatburnResistant>true</heatburnResistant>
+				<heatstrokeDef>ESCP_DwemerSweat</heatstrokeDef>
 				<majorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Mer</majorRacialGeneToInherit>
 				<minorRacialGeneToInherit MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Dwemer</minorRacialGeneToInherit>
 			</li>
 		</modExtensions>
+
+		<!--
+	• High crafting - smoothing speed, smithing speed, smelting speed, sculpting speed, 
+	construction - construction speed
+	intellectual - research speed
+	mining - mining speed, mining yield
+    • Low plants - plantwork speed, 
+    • Very low animals - animal gather speed
+	-->
 		<statBases>
 			<MarketValue>2000</MarketValue>
 			<RoyalFavorValue>5</RoyalFavorValue>
 			<ComfyTemperatureMax>30</ComfyTemperatureMax>
 			<GlobalLearningFactor>1.2</GlobalLearningFactor>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
 			<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.5</CertaintyLossFactor>
+
+			<ConstructSuccessChance>1.2</ConstructSuccessChance>
+			<FixBrokenDownBuildingSuccessChance>1.2</FixBrokenDownBuildingSuccessChance>
+			<ResearchSpeed>1.2</ResearchSpeed>
+			<SmoothingSpeed>1.2</SmoothingSpeed>
+			<SmeltingSpeed>1.2</SmeltingSpeed>
+
+			<DeepDrillingSpeed>2</DeepDrillingSpeed>
+			<MiningYield>1.5</MiningYield>
+
+			<PlantWorkSpeed>0.6</PlantWorkSpeed>
+			<AnimalGatherSpeed>0.3</AnimalGatherSpeed>
+
 		</statBases>
 		<race>
 			<leatherDef>ESCP_LeatherDwemer</leatherDef>
@@ -27,6 +53,12 @@
 		</race>
 		<alienRace>
 			<generalSettings>
+				<forcedRaceTraitEntries>
+					<li>
+						<defName>Undergrounder</defName>
+						<chance>100</chance>
+					</li>
+				</forcedRaceTraitEntries>
 				<alienPartGenerator>
 					<colorChannels>
 						<li>

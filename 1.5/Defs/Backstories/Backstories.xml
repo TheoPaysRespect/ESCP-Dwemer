@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+    <!--Base-->
+
+    <!-- ==========[ESCP_Dwemer_ChildhoodBase]========== -->
+    <AlienRace.AlienBackstoryDef Name="ESCP_Dwemer_ChildhoodBase" Abstract="True">
+        <slot>Childhood</slot>
+        <bodyTypeGlobal>Thin</bodyTypeGlobal>
+        <spawnCategories>
+            <li>ESCP_DwemerBackstory_Childhood</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- ==========[ESCP_Dwemer_AdulthoodBase]========== -->
+    <AlienRace.AlienBackstoryDef Name="ESCP_Dwemer_AdulthoodBase" Abstract="True">
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>ESCP_DwemerBackstory_Adulthood</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!--Childhood-->
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_ChildhoodBase">
+        <defName>ESCP_Childhood_CraftingA</defName>
+        <title>spider tinkerer</title>
+        <titleShort>tinkerer</titleShort>
+        <description>From a young age, [PAWN_nameDef] loved tikering with various machines, especially spiders. It was a common sight to see [PAWN_pronoun] reprimanded by technicians upon being discovered as the cause of the newest malfunction.</description>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_ChildhoodBase">
+        <defName>ESCP_Childhood_PlantsA</defName>
+        <title>fungus enthusiast</title>
+        <titleShort>enthusiast</titleShort>
+        <description>Unlike other kids, [PAWN_nameDef] loved fungus and refused to eat anything that didn't contain it. This greatly overjoyed the local cultivators who saw both a future customer and worker.</description>
+        <skillGains>
+            <Plants>2</Plants>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+
+    <!--Adulthood-->
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_ConstructionA</defName>
+        <title>tonal architect</title>
+        <titleShort>architect</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Crafting>2</Crafting>
+            <Construction>2</Construction>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_CraftingA</defName>
+        <title>aminunculi tender</title>
+        <titleShort>tender</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Intellectual>-2</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_ConstructionB</defName>
+        <title>aminunculi architect</title>
+        <titleShort>architect</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_PlantsS</defName>
+        <title>fungus cultivator</title>
+        <titleShort>cultivator</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Plants>2</Plants>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_IntellectualA</defName>
+        <title>librarian</title>
+        <titleShort>librarian</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>-2</Social>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_IntellectualB</defName>
+        <title>archivist</title>
+        <titleShort>archivist</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_MiningA</defName>
+        <title>excavator</title>
+        <titleShort>excavator</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Mining>2</Mining>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_MiningB</defName>
+        <title>demolitionist</title>
+        <titleShort>demolitionist</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Mining>2</Mining>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_AnimalsA</defName>
+        <title>kwama tender</title>
+        <titleShort>tender</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Animals>2</Animals>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_ConstructionC</defName>
+        <title>airship pilot</title>
+        <titleShort>pilot</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Construction>8</Construction>
+            <Crafting>4</Crafting>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_ConstructionD</defName>
+        <title>steam technician</title>
+        <titleShort>technician</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Construction>2</Construction>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_CraftingB</defName>
+        <title>tonal smith</title>
+        <titleShort>smith</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_SocialA</defName>
+        <title>diplomat</title>
+        <titleShort>diplomat</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Social>2</Social>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_SocialB</defName>
+        <title>emissary</title>
+        <titleShort>emissary</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Social>2</Social>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_ShootingA</defName>
+        <title>arbalest</title>
+        <titleShort>arbalest</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_MeleeA</defName>
+        <title>warrior</title>
+        <titleShort>warrior</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Melee>2</Melee>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_ArtisticA</defName>
+        <title>muralist</title>
+        <titleShort>muralist</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Artistic>2</Artistic>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_ArtisticB</defName>
+        <title>statue maker</title>
+        <titleShort>maker</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Artistic>2</Artistic>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_CraftingC</defName>
+        <title>clothier</title>
+        <titleShort>clothier</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_IntellectualC</defName>
+        <title>Aetherium researcher</title>
+        <titleShort>researcher</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_IntellectualD</defName>
+        <title>researcher</title>
+        <titleShort>researcher</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_IntellectualE</defName>
+        <title>oculary researcher</title>
+        <titleShort>researcher</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_IntellectualF</defName>
+        <title>astronomer</title>
+        <titleShort>astronomer</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_SocialC</defName>
+        <title>councillor</title>
+        <titleShort>councillor</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Social>2</Social>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_SocialD</defName>
+        <title>rare artifact collector</title>
+        <titleShort>collector</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Social>2</Social>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_IntellectualG</defName>
+        <title>scholar</title>
+        <titleShort>scholar</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_CraftingD</defName>
+        <title>puzzle box creator</title>
+        <titleShort>creator</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_AnimalsB</defName>
+        <title>tamer</title>
+        <titleShort>tamer</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Animals>2</Animals>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Adulthood_MeleeB</defName>
+        <title>slaver</title>
+        <titleShort>slaver</titleShort>
+        <description>PLACEHOLDER</description>
+        <skillGains>
+            <Animals>5</Animals>
+            <Melee>3</Melee>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+
+</Defs>

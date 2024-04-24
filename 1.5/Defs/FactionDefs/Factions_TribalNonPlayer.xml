@@ -12,6 +12,7 @@
 		</modExtensions>
 		<settlementGenerationWeight>0.5</settlementGenerationWeight>
 		<leaderTitle>king</leaderTitle>
+		<leaderTitleFemale>queen</leaderTitleFemale>
 		<factionIconPath>World/WorldObjects/Expanding/ESCP_DwemerSettlement</factionIconPath>
 		<factionNameMaker>ESCP_Dwemer_NamerFaction</factionNameMaker>
 		<caravanTraderKinds Inherit="False"/>
@@ -176,7 +177,7 @@
 	<FactionDef ParentName="ESCP_DwemerNonPlayerFaction_Base">
 		<defName>ESCP_DwemerNonPlayerFaction_Eastern</defName>
 		<label>Eastern Dwemer Kingdom</label>
-		<description>A Dwemer kingdom, composed of several grand cities buried beneath the earth.\n\nDwemer prefer to keep to themselves, and are unlikely to be found sending trade caravans abroad.\n\This particular kingdom controls the original homeland of the Dwemer. They are quite open to trade and alliances, even with strange peoples.</description>
+		<description>A Dwemer kingdom, composed of several grand cities buried beneath the earth.\n\nDwemer prefer to keep to themselves, and are unlikely to be found sending trade caravans abroad.\n\nThis particular kingdom controls the original homeland of the Dwemer. They are quite open to trade and alliances, even with strange peoples.</description>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.SettlementPreference">
 				<chance>1.0</chance>
@@ -203,7 +204,7 @@
 	<FactionDef ParentName="ESCP_DwemerNonPlayerFaction_Base">
 		<defName>ESCP_DwemerNonPlayerFaction_Western</defName>
 		<label>Western Dwemer Kingdom</label>
-		<description>A Dwemer kingdom, composed of several grand cities buried beneath the earth.\n\nDwemer prefer to keep to themselves, and are unlikely to be found sending trade caracans abroad.\n\This particular kingdom was born from an expansion to to the west. They are quite open to trade and alliances, even with strange peoples.</description>
+		<description>A Dwemer kingdom, composed of several grand cities buried beneath the earth.\n\nDwemer prefer to keep to themselves, and are unlikely to be found sending trade caracans abroad.\n\nThis particular kingdom was born from an expansion to to the west. They are quite open to trade and alliances, even with strange peoples.</description>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.SettlementPreference">
 				<useSwampinessRange>true</useSwampinessRange>

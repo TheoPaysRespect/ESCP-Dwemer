@@ -18,12 +18,14 @@
 				<categoriesChildhood>
 					<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
 					<li>ESCP_GenericBackstory_ChildhoodHighClass</li>
+					<li>ESCP_DwemerBackstory_Childhood</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
 					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
 					<li>ESCP_GenericBackstory_AdulthoodHighClass</li>
 					<li>ESCP_GenericBackstory_AdulthoodMage</li>
 					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+					<li>ESCP_DwemerBackstory_Adulthood</li>
 				</categoriesAdulthood>
 				<excludeChildhood>
 					<li>ESCP_DwemerBackstory_Exclusion</li>
