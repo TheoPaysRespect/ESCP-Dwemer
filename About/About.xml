@@ -6,6 +6,7 @@
 	<modVersion>1.0.0</modVersion>
 	<supportedVersions>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<description>Adds in the Dwemer using Humanoid Alien Race Framework. TODO.\n\n-Supports Vanilla Achievements Expanded\n-Requires Harmony\n-Requires Humanoid Alien Races 2.0\n-Based on the 'Elder Scrolls' series by Bethesda Game Studios.
 	</description>
