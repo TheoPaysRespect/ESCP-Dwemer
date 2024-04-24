@@ -13,6 +13,26 @@
 			<li>Medieval</li>
 			<li>MedievalBasic</li>
 		</apparelTags>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
+					<li>ESCP_GenericBackstory_ChildhoodHighClass</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodHighClass</li>
+					<li>ESCP_GenericBackstory_AdulthoodMage</li>
+					<li>ESCP_GenericBackstory_AdulthoodSlaver</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DwemerBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_DwemerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
 	</PawnKindDef>
 	<!-- ==========[ESCP_Dwemer_Tribal_Penitent]========== -->
 	<PawnKindDef ParentName="ESCP_Dwemer_TribalBase">
@@ -109,14 +129,21 @@
 		<defName>ESCP_Dwemer_Tribal_Hunter</defName>
 		<label>hunter</label>
 		<combatPower>60</combatPower>
-		<backstoryFiltersOverride>
+		<backstoryFiltersOverride Inherit="False">
 			<li>
 				<categoriesChildhood>
-					<li>Tribal</li>
+					<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
+					<li>ESCP_GenericBackstory_ChildhoodHighClass</li>
 				</categoriesChildhood>
 				<categoriesAdulthood>
-					<li>TribalHunter</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedievalHunter</li>
 				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DwemerBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_DwemerBackstory_Exclusion</li>
+				</excludeAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 		<gearHealthRange>0.5~1.8</gearHealthRange>

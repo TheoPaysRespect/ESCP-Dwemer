@@ -21,7 +21,7 @@
 			</li>
 		</modExtensions>
 	</FactionDef>
-	<!-- ========== [ESCP_DwemerPlayerFactionBase_Tribal] ========== -->
+	<!-- ========== [ESCP_DwemerPlayerFactionBase_Medieval] ========== -->
 	<FactionDef ParentName="ESCP_PlayerFactionBase_Medieval">
 		<defName>ESCP_DwemerPlayerFaction_Medieval</defName>
 		<label>New Dwemer Kingdom</label>
