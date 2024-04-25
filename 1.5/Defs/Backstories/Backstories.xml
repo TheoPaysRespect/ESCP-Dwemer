@@ -117,7 +117,7 @@
         <defName>ESCP_Adulthood_IntellectualB</defName>
         <title>archivist</title>
         <titleShort>archivist</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>Admiring [PAWN_possessive] great empire, [PAWN_nameDef] became an archivist, determined to preserve the great knowledge attained by [PAWN_possessive] people. [PAWN_nameDef] would study documents to accertain their authenticiy and assist scholars in both research and new publishing.</description>
         <skillGains>
             <Intellectual>6</Intellectual>
         </skillGains>
@@ -127,7 +127,7 @@
         <defName>ESCP_Adulthood_MiningA</defName>
         <title>excavator</title>
         <titleShort>excavator</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>As the empire kept growing, so did [PAWN_nameDef] keep digging to make room for the new. Slowly the earthen walls turned into decorated halls, all thanks to [PAWN_nameDef] and the slaves [PAWN_pronoun] managed.</description>
         <skillGains>
             <Construction>4</Construction>
             <Mining>6</Mining>
@@ -138,7 +138,7 @@
         <defName>ESCP_Adulthood_MiningB</defName>
         <title>demolitionist</title>
         <titleShort>demolitionist</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>[PAWN_nameDef] was employed as a demolitionst, a thin balance between razing down no longer adequate buildings and salvaging any materials that could be reused. There were exceptions to this rule, such as when a scholar lost his standing and mentions of him were to be destroyed.</description>
         <skillGains>
             <Crafting>2</Crafting>
             <Mining>4</Mining>
@@ -171,7 +171,7 @@
         <defName>ESCP_Adulthood_ConstructionD</defName>
         <title>steam technician</title>
         <titleShort>technician</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>[PAWN_nameDef]'s job was maintaining the many steam valves present throughout the city, a daunting task as they would often get clogged up by bones and trash of unknown origin. Later it turned out it was the falmer whose brains had rotted away.</description>
         <skillGains>
             <Construction>6</Construction>
         </skillGains>
