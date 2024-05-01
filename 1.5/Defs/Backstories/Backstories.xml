@@ -24,7 +24,7 @@
     <!--Childhood-->
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_ChildhoodBase">
-        <defName>ESCP_Childhood_CraftingA</defName>
+        <defName>ESCP_Dwemer_Childhood_CraftingA</defName>
         <title>spider tinkerer</title>
         <titleShort>tinkerer</titleShort>
         <description>From a young age, [PAWN_nameDef] loved tikering with various machines, especially spiders. It was a common sight to see [PAWN_pronoun] reprimanded by technicians upon being discovered as the cause of the newest malfunction.</description>
@@ -35,7 +35,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_ChildhoodBase">
-        <defName>ESCP_Childhood_PlantsA</defName>
+        <defName>ESCP_Dwemer_Childhood_PlantsA</defName>
         <title>fungus enthusiast</title>
         <titleShort>enthusiast</titleShort>
         <description>Unlike other kids, [PAWN_nameDef] loved fungus and refused to eat anything that didn't contain it. This greatly overjoyed the local cultivators who saw both a future customer and worker.</description>
@@ -45,7 +45,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_ChildhoodBase">
-        <defName>ESCP_Childhood_IntellectualA</defName>
+        <defName>ESCP_Dwemer_Childhood_IntellectualA</defName>
         <title>tonal student</title>
         <titleShort>student</titleShort>
         <description>[PAWN_nameDef] was a student of the complex subject of tonal architecture, learning from a young age how to manipulate sound waves. During [PAWN_possessive] time off, [PAWN_pronoun] would build small prototypes using [PAWN_possessive] newfound knowledge.</description>
@@ -59,7 +59,7 @@
     <!--Adulthood-->
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_ConstructionA</defName>
+        <defName>ESCP_Dwemer_Adulthood_ConstructionA</defName>
         <title>tonal architect</title>
         <titleShort>architect</titleShort>
         <description>Few were as respected as the tonal architects [PAWN_nameDef] was part of. Together they would construct wonderful contraptions furthering the development of their civilisation.</description>
@@ -71,7 +71,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_CraftingA</defName>
+        <defName>ESCP_Dwemer_Adulthood_CraftingA</defName>
         <title>aminunculi tender</title>
         <titleShort>tender</titleShort>
         <description>[PAWN_nameDef] was a tender of aminunculi, making sure their joints moved smoothly and that they didn't have any electric discharge. Unfortunately, during one such inspection, part of [PAWN_possessive] brain got fried, never the same again.</description>
@@ -82,7 +82,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_ConstructionB</defName>
+        <defName>ESCP_Dwemer_Adulthood_ConstructionB</defName>
         <title>aminunculi architect</title>
         <titleShort>architect</titleShort>
         <description>Every aminunculi had a creator such as [PAWN_nameDef], designing them with care and the expectation that they would last millennia. Sometimes, [PAWN_pronoun] would design small prototypes to scare [PAWN_possessive] friends with, much to their dismay.</description>
@@ -93,7 +93,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_PlantsS</defName>
+        <defName>ESCP_Dwemer_Adulthood_PlantsS</defName>
         <title>fungus cultivator</title>
         <titleShort>cultivator</titleShort>
         <description>Every Dwemer knows the important of fungus, one of the few plants growing underground. [PAWN_nameDef] knew it even better, down to the exact shade that indicated sickness, the expected harvest, and the income after selling [PAWN_possessive] stock.</description>
@@ -103,7 +103,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_IntellectualA</defName>
+        <defName>ESCP_Dwemer_Adulthood_IntellectualA</defName>
         <title>librarian</title>
         <titleShort>librarian</titleShort>
         <description>[PAWN_nameDef] never cared for people, preferring the silent solace of books. Once the day came, [PAWN_pronoun] applied to be a librarian, greatly enjoying chastising anyone who disturbed [PAWN_possessive] sacred place.</description>
@@ -114,7 +114,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_IntellectualB</defName>
+        <defName>ESCP_Dwemer_Adulthood_IntellectualB</defName>
         <title>archivist</title>
         <titleShort>archivist</titleShort>
         <description>Admiring [PAWN_possessive] great empire, [PAWN_nameDef] became an archivist, determined to preserve the great knowledge attained by [PAWN_possessive] people. [PAWN_nameDef] would study documents to accertain their authenticiy and assist scholars in both research and new publishing.</description>
@@ -124,7 +124,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_MiningA</defName>
+        <defName>ESCP_Dwemer_Adulthood_MiningA</defName>
         <title>excavator</title>
         <titleShort>excavator</titleShort>
         <description>As the empire kept growing, so did [PAWN_nameDef] keep digging to make room for the new. Slowly the earthen walls turned into decorated halls, all thanks to [PAWN_nameDef] and the slaves [PAWN_pronoun] managed.</description>
@@ -135,7 +135,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_MiningB</defName>
+        <defName>ESCP_Dwemer_Adulthood_MiningB</defName>
         <title>demolitionist</title>
         <titleShort>demolitionist</titleShort>
         <description>[PAWN_nameDef] was employed as a demolitionst, a thin balance between razing down no longer adequate buildings and salvaging any materials that could be reused. There were exceptions to this rule, such as when a scholar lost his standing and mentions of him were to be destroyed.</description>
@@ -146,20 +146,20 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_AnimalsA</defName>
+        <defName>ESCP_Dwemer_Adulthood_AnimalsA</defName>
         <title>kwama tender</title>
         <titleShort>tender</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>[PAWN_nameDef] was a simple kwama tender, utilising tonal architecture to mesmerise them into willingly giving up their eggs. [PAWN_pronoun] would sneer at the Chimer who had to resort to primitive methods like scent recognition.</description>
         <skillGains>
             <Animals>4</Animals>
         </skillGains>
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_ConstructionC</defName>
+        <defName>ESCP_Dwemer_Adulthood_ConstructionC</defName>
         <title>airship pilot</title>
         <titleShort>pilot</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>While other Dwemer stayed underground, [PAWN_nameDef] took to the skies. [PAWN_pronoun] would transport various goods to and from the Kingdom, revolutioning Dwemer trade.</description>
         <skillGains>
             <Construction>8</Construction>
             <Crafting>4</Crafting>
@@ -168,7 +168,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_ConstructionD</defName>
+        <defName>ESCP_Dwemer_Adulthood_ConstructionD</defName>
         <title>steam technician</title>
         <titleShort>technician</titleShort>
         <description>[PAWN_nameDef]'s job was maintaining the many steam valves present throughout the city, a daunting task as they would often get clogged up by bones and trash of unknown origin. Later it turned out it was the falmer whose brains had rotted away.</description>
@@ -178,7 +178,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_CraftingB</defName>
+        <defName>ESCP_Dwemer_Adulthood_CraftingB</defName>
         <title>tonal smith</title>
         <titleShort>smith</titleShort>
         <description>While the tonal architects worked, [PAWN_nameDef] would construct the parts they would use. No matter how small, each cog was an important part of the machine, just as every Dwemer to the Kingdom.</description>
@@ -189,7 +189,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_SocialA</defName>
+        <defName>ESCP_Dwemer_Adulthood_SocialA</defName>
         <title>diplomat</title>
         <titleShort>diplomat</titleShort>
         <description>While most Dwemer stayed underground, [PAWN_nameDef] would travel around the world to maintain the few relations they still had. Usually the nation was the Chimer empire, arguing with the great houses over their worship of Daedra.</description>
@@ -199,7 +199,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_SocialB</defName>
+        <defName>ESCP_Dwemer_Adulthood_SocialB</defName>
         <title>emissary</title>
         <titleShort>emissary</titleShort>
         <description>[PAWN_nameDef] would accompany the diplomats whenever tensions arose with other nations. While the others argued about faith, [PAWN_nameDef] would take notes of anything interesting they could bring home to study.</description>
@@ -209,7 +209,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_ShootingA</defName>
+        <defName>ESCP_Dwemer_Adulthood_ShootingA</defName>
         <title>arbalest</title>
         <titleShort>arbalest</titleShort>
         <description>Few were as skilled with arbalests as [PAWN_nameDef], whose nickname became synonymous with the weapon. To keep enemies on their toes, [PAWN_pronoun] would constantly try to design new types of bolts, each more dangerous than the last.</description>
@@ -220,20 +220,20 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_MeleeA</defName>
+        <defName>ESCP_Dwemer_Adulthood_MeleeA</defName>
         <title>warrior</title>
         <titleShort>warrior</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>[PAWN_nameDef] was one of the many proud warriors in the Dwemer army. [PAWN_pronoun] would often be sent to the Skyrim borders in case the Nords would invade again.</description>
         <skillGains>
             <Melee>4</Melee>
         </skillGains>
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_ArtisticA</defName>
+        <defName>ESCP_Dwemer_Adulthood_ArtisticA</defName>
         <title>muralist</title>
         <titleShort>muralist</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>[PAWN_nameDef] was often comissioned to carve murals for the Dwemer populace, whether it was a shop sign or painting to commemorate their newest scientific discovery.</description>
         <skillGains>
             <Construction>4</Construction>
             <Artistic>6</Artistic>
@@ -241,7 +241,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_ArtisticB</defName>
+        <defName>ESCP_Dwemer_Adulthood_ArtisticB</defName>
         <title>statue maker</title>
         <titleShort>maker</titleShort>
         <description>[PAWN_nameDef] was one of the statue makers comissioned to make grand statues commemorating the great deeds of the Dwemer empire, and even grander ones for the king who claimed the honor. After a long day of work, [PAWN_pronoun] would relax with the others at the local sauna.</description>
@@ -252,7 +252,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_CraftingC</defName>
+        <defName>ESCP_Dwemer_Adulthood_CraftingC</defName>
         <title>clothier</title>
         <titleShort>clothier</titleShort>
         <description>PLACEHOLDER</description>
@@ -262,7 +262,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_IntellectualC</defName>
+        <defName>ESCP_Dwemer_Adulthood_IntellectualC</defName>
         <title>Aetherium researcher</title>
         <titleShort>researcher</titleShort>
         <description>PLACEHOLDER</description>
@@ -273,7 +273,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_IntellectualD</defName>
+        <defName>ESCP_Dwemer_Adulthood_IntellectualD</defName>
         <title>tonal researcher</title>
         <titleShort>researcher</titleShort>
         <description>PLACEHOLDER</description>
@@ -283,7 +283,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_IntellectualF</defName>
+        <defName>ESCP_Dwemer_Adulthood_IntellectualF</defName>
         <title>astronomer</title>
         <titleShort>astronomer</titleShort>
         <description>[PAWN_nameDef] spent [PAWN_possessive] days researching the stars and recording their alignments. Their work was commonly cited amongs fellow scholars.</description>
@@ -293,7 +293,19 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_SocialC</defName>
+        <defName>ESCP_Dwemer_Adulthood_IntellectualI</defName>
+        <title>Heart of Lorkhan researcher</title>
+        <titleShort>researcher</titleShort>
+        <description>[PAWN_nameDef] was one of the few prestigious researchers permitted to study the heart of Lorkhan itself. Together with other researchers, they would try to find ways to harness its powers.</description>
+        <skillGains>
+            <Intellectual>10</Intellectual>
+            <Crafting>4</Crafing>
+            <Construction>4</Construction>
+        </skillGains>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
+        <defName>ESCP_Dwemer_Adulthood_SocialC</defName>
         <title>councillor</title>
         <titleShort>councillor</titleShort>
         <description>PLACEHOLDER</description>
@@ -303,7 +315,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_SocialD</defName>
+        <defName>ESCP_Dwemer_Adulthood_SocialD</defName>
         <title>rare artifact collector</title>
         <titleShort>collector</titleShort>
         <description>PLACEHOLDER</description>
@@ -314,7 +326,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_IntellectualG</defName>
+        <defName>ESCP_Dwemer_Adulthood_IntellectualG</defName>
         <title>scholar</title>
         <titleShort>scholar</titleShort>
         <description>[PAWN_nameDef] was an esteemed scholar, specialising in the divine arts. Disgusted by aedra and daedra alike, [PAWN_pronoun] took great pleasure in the thought that one day the Dwemer will surpass them as the new gods of Nirn.</description>
@@ -324,7 +336,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_CraftingD</defName>
+        <defName>ESCP_Dwemer_Adulthood_CraftingD</defName>
         <title>puzzle box creator</title>
         <titleShort>creator</titleShort>
         <description>One day, [PAWN_nameDef] woke up and had a great idea, to make a puzzle cube. Once finished, [PAWN_nameDef] made sure to hide it as well as possible, feeling deep satisfaction over the thought that one day, an adventurer will be tasked with finding it.</description>
@@ -335,7 +347,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_AnimalsB</defName>
+        <defName>ESCP_Dwemer_Adulthood_AnimalsB</defName>
         <title>tamer</title>
         <titleShort>tamer</titleShort>
         <description>PLACEHOLDER</description>
@@ -345,7 +357,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_IntellectualH</defName>
+        <defName>ESCP_Dwemer_Adulthood_IntellectualH</defName>
         <title>slaver</title>
         <titleShort>slaver</titleShort>
         <description>While outdoor slavers relied on primitive methods such as weapons and traps, [PAWN_nameDef] used tonal contraptions to charm [PAWN_possessive] victims into following along. The resulting goods were undamaged, and willing to serve any master as long as the tunes kept singing in their brains.</description>
@@ -356,7 +368,7 @@
     </AlienRace.AlienBackstoryDef>
 
     <AlienRace.AlienBackstoryDef ParentName="ESCP_Dwemer_AdulthoodBase">
-        <defName>ESCP_Adulthood_MedicalA</defName>
+        <defName>ESCP_Dwemer_Adulthood_MedicalA</defName>
         <title>tonal medic</title>
         <titleShort>medic</titleShort>
         <description>[PAWN_nameDef] was a practicioner of tonal medicine, using sound waves to treat complex issues in [PAWN_possessive] patients. [PAWN_nameDef] always had positive reviews, as the patients left the clinic feeling nothing but bliss.</description>
