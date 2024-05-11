@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>ESCP - Dwemer</name>
-	<packageId>SirMashedPotato.ESCP.Dwemer</packageId>
-	<author>SirMashedPotato</author>
+	<packageId>ESCP.ESCP.Dwemer</packageId>
+	<author>ESCP</author>
 	<modVersion>1.0.0</modVersion>
 	<supportedVersions>
 		<li>1.5</li>
@@ -22,10 +22,10 @@
 			<steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
 		</li>
 		<li>
-			<packageId>SirMashedPotato.ESCP.RaceTools</packageId>
+			<packageId>ESCP.ESCP.RaceTools</packageId>
 			<displayName>ESCP - Race Tools</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2681814436</steamWorkshopUrl>
-			<downloadUrl>https://github.com/SirMashedPotato/ESCP-Race_Tools</downloadUrl>
+			<downloadUrl>https://github.com/TheoPaysRespect/ESCP-Race_Tools</downloadUrl>
 		</li>
 	</modDependencies>
 	<loadAfter>
@@ -35,7 +35,7 @@
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>erdelf.HumanoidAlienRaces</li>
-		<li>SirMashedPotato.ESCP.RaceTools</li>
+		<li>ESCP.ESCP.RaceTools</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 	</loadAfter>
 </ModMetaData>
