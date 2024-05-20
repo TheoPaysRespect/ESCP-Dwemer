@@ -3,7 +3,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_MerStandardHead">
 		<defName>ESCP_DwemerRace</defName>
 		<label>Dwemer</label>
-		<description>A mysterious elven race, believed to be the first to split off from the Aldmer. The Dwemer appear to worship no gods, simply believing in reason and logic, a potential reason for their exodus from Aldmeris. While they originally settled the region of Resdayn, conflict eventually resulted in some Dwemer clans migrating yet again. And then, they disappeared, which many attribute to their tampering with an ancient power.\n\nWhile almost indistinguishable from the Altmer in poor lighting, the Dwemer have lost much of their golden hue. TODO.\n\n&lt;color=#E5E54C&gt;Mer Blood&lt;/color&gt;\nPsychic sensitivity is increased by 20%\nFertility is decreased by 50%.\nBase health scale is decreased by 20%\nLife expectancy is increased to 300 years.\n\n&lt;color=#E5E54C&gt;Deep Folk&lt;/color&gt;\nThe outdoors need is disabled.\nGains the sweating hediff instead of heatstroke.\n\n&lt;color=#E5E54C&gt;Reason and Logic&lt;/color&gt;\nGlobal learning factor is increased by 20%.\nCertainty loss factor is decreased by 50%.</description>
+		<description>A mysterious elven race, believed to be the first to split off from the Aldmer. The Dwemer appear to worship no gods, simply believing in reason and logic, a potential reason for their exodus from Aldmeris. While they originally settled the region of Resdayn, conflict eventually resulted in some Dwemer clans migrating yet again. And then, they disappeared, which many attribute to their tampering with an ancient power.\n\nWhile almost indistinguishable from the Altmer in poor lighting, the Dwemer have lost much of their golden hue. TODO.\n\n&lt;color=#E5E54C&gt;Mer Blood&lt;/color&gt;\nPsychic sensitivity is increased by 20%\nFertility is decreased by 50%.\nBase health scale is decreased by 20%\nLife expectancy is increased to 300 years.\n\n&lt;color=#E5E54C&gt;Deep Folk&lt;/color&gt;\nForced undergrounder trait.\nGains the sweating hediff instead of heatstroke.\nIncreased mining yield by 50%.\nIncreased deep drilling speed by 20%.\n\n&lt;color=#E5E54C&gt;Reason and Logic&lt;/color&gt;\nGlobal learning factor is increased by 20%.\nCertainty loss factor is decreased by 50%.\nIncreased research speed by 20%.</description>
 		<descriptionHyperlinks>
 			<GeneDef MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Mer</GeneDef>
 			<GeneDef MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Dwemer</GeneDef>
@@ -34,13 +34,8 @@
 			<ArmorRating_Heat>0.1</ArmorRating_Heat>
 			<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.5</CertaintyLossFactor>
 
-			<ConstructSuccessChance>1.2</ConstructSuccessChance>
-			<FixBrokenDownBuildingSuccessChance>1.2</FixBrokenDownBuildingSuccessChance>
 			<ResearchSpeed>1.2</ResearchSpeed>
-			<SmoothingSpeed>1.2</SmoothingSpeed>
-			<SmeltingSpeed>1.2</SmeltingSpeed>
-
-			<DeepDrillingSpeed>2</DeepDrillingSpeed>
+			<DeepDrillingSpeed>1.2</DeepDrillingSpeed>
 			<MiningYield>1.5</MiningYield>
 
 			<PlantWorkSpeed>0.6</PlantWorkSpeed>
