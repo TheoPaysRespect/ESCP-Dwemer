@@ -299,7 +299,7 @@
         <description>[PAWN_nameDef] was one of the few prestigious researchers permitted to study the heart of Lorkhan itself. Together with other researchers, they would try to find ways to harness its powers.</description>
         <skillGains>
             <Intellectual>10</Intellectual>
-            <Crafting>4</Crafing>
+            <Crafting>4</Crafting>
             <Construction>4</Construction>
         </skillGains>
     </AlienRace.AlienBackstoryDef>
