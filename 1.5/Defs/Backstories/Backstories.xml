@@ -255,7 +255,7 @@
         <defName>ESCP_Dwemer_Adulthood_CraftingC</defName>
         <title>clothier</title>
         <titleShort>clothier</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>Unlike many of [pawn_possessive] kin, [PAWN_nameDef] was content with living the humble life of a tailor. While [PAWN_possessive] clients raved about the newest model of automaton, [PAWN_pronoun] hummed away as [PAWN_pronoun] patched up their regularily damaged garb.</description>
         <skillGains>
             <Crafting>4</Crafting>
         </skillGains>
@@ -265,9 +265,9 @@
         <defName>ESCP_Dwemer_Adulthood_IntellectualC</defName>
         <title>Aetherium researcher</title>
         <titleShort>researcher</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>While other researchers were focusing on traditional tones, [PAWN_nameDef] was on the frontline of science as a researcher of aetherium. After all, what is the point of bending your opponents to your will, when you can bend reality itself to your will?</description>
         <skillGains>
-            <Intellectual>6</Intellectual>
+            <Intellectual>8</Intellectual>
             <Crafting>2</Crafting>
         </skillGains>
     </AlienRace.AlienBackstoryDef>
@@ -276,9 +276,10 @@
         <defName>ESCP_Dwemer_Adulthood_IntellectualD</defName>
         <title>tonal researcher</title>
         <titleShort>researcher</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>[PAWN_nameDef] was a musician by trade, but not the traditional kind. Playing outworldly tunes, [PAWN_pronoun] researched the art of tonal architecture and how it can be used to both soothe the mind and bend even the hardest of warriors to [PAWN_possessive] will.</description>
         <skillGains>
             <Intellectual>6</Intellectual>
+            <Social>2</Social>
         </skillGains>
     </AlienRace.AlienBackstoryDef>
 
@@ -308,7 +309,7 @@
         <defName>ESCP_Dwemer_Adulthood_SocialC</defName>
         <title>councillor</title>
         <titleShort>councillor</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>One of the king's chief advisors, [PAWN_nameDef] was a member of the Resdayn council. While often tense with the prospect of more war, [PAWN_pronoun] remained optimistic that their alliance would stand.</description>
         <skillGains>
             <Social>6</Social>
         </skillGains>
@@ -318,7 +319,7 @@
         <defName>ESCP_Dwemer_Adulthood_SocialD</defName>
         <title>rare artifact collector</title>
         <titleShort>collector</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>[PAWN_nameDef] was obsessed with the intricancies of daedric artifacts, going to great lengths to get [PAWN_possessive] hands on them. Eventually, [PAWN_possessive] began to bargain with the daedric princes [PAWN_objective]self, believing to be smart enough to trick each one and still avoid their spheres after death.</description>
         <skillGains>
             <Crafting>2</Crafting>
             <Social>4</Social>
@@ -350,7 +351,7 @@
         <defName>ESCP_Dwemer_Adulthood_AnimalsB</defName>
         <title>tamer</title>
         <titleShort>tamer</titleShort>
-        <description>PLACEHOLDER</description>
+        <description>There were few animals in the depth of the earth, but the few that were found, [PAWN_nameDef] was bound to tame. Whether it was a lone kwama scrib on an adventure, or a new born chaurus, it was just another pet for [PAWN_objective].</description>
         <skillGains>
             <Animals>2</Animals>
         </skillGains>

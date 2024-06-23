@@ -3,7 +3,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="ESCP_BaseRace_MerStandardHead">
 		<defName>ESCP_DwemerRace</defName>
 		<label>Dwemer</label>
-		<description>A mysterious elven race, believed to be the first to split off from the Aldmer. The Dwemer appear to worship no gods, simply believing in reason and logic, a potential reason for their exodus from Aldmeris. While they originally settled the region of Resdayn, conflict eventually resulted in some Dwemer clans migrating yet again. And then, they disappeared, which many attribute to their tampering with an ancient power.\n\nWhile almost indistinguishable from the Altmer in poor lighting, the Dwemer have lost much of their golden hue. TODO.\n\n&lt;color=#E5E54C&gt;Mer Blood&lt;/color&gt;\nPsychic sensitivity is increased by 20%\nFertility is decreased by 50%.\nBase health scale is decreased by 20%\nLife expectancy is increased to 300 years.\n\n&lt;color=#E5E54C&gt;Deep Folk&lt;/color&gt;\nForced undergrounder trait.\nGains the sweating hediff instead of heatstroke.\nIncreased mining yield by 50%.\nIncreased deep drilling speed by 20%.\n\n&lt;color=#E5E54C&gt;Reason and Logic&lt;/color&gt;\nGlobal learning factor is increased by 20%.\nCertainty loss factor is decreased by 50%.\nIncreased research speed by 20%.</description>
+		<description>A mysterious elven race, believed to be the first to split off from the Aldmer. The Dwemer appear to worship no gods, simply believing in reason and logic, a potential reason for their exodus from Aldmeris. While they originally settled the region of Resdayn, conflict eventually resulted in some Dwemer clans migrating yet again. And then, they disappeared, which many attribute to their tampering with an ancient power.\n\nWhile almost indistinguishable from the Altmer in poor lighting, the Dwemer have lost much of their golden hue. Their ornamented beards glimmer in the light of bioluminescent shrooms, as does their skin when working in their great forges.\n\n&lt;color=#E5E54C&gt;Mer Blood&lt;/color&gt;\nPsychic sensitivity is increased by 20%\nFertility is decreased by 50%.\nBase health scale is decreased by 20%\nLife expectancy is increased to 300 years.\n\n&lt;color=#E5E54C&gt;Deep Folk&lt;/color&gt;\nForced undergrounder trait.\nGains the sweating hediff instead of heatstroke.\nIncreased mining yield by 50%.\nIncreased deep drilling speed by 20%.\n Decreased plant work speed by 40%.\n Decreased animal gather speed by 40%.\n\n&lt;color=#E5E54C&gt;Reason and Logic&lt;/color&gt;\nGlobal learning factor is increased by 20%.\nCertainty loss factor is decreased by 50%.\nIncreased research speed by 20%.</description>
 		<descriptionHyperlinks>
 			<GeneDef MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Mer</GeneDef>
 			<GeneDef MayRequire="Ludeon.RimWorld.Biotech">ESCP_GeneInheritedBonus_Dwemer</GeneDef>
@@ -39,7 +39,7 @@
 			<MiningYield>1.5</MiningYield>
 
 			<PlantWorkSpeed>0.6</PlantWorkSpeed>
-			<AnimalGatherSpeed>0.3</AnimalGatherSpeed>
+			<AnimalGatherSpeed>0.6</AnimalGatherSpeed>
 
 		</statBases>
 		<race>
