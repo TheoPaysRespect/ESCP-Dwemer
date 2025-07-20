@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ==========[ESCP_Industrial_DwemerGrenadier_Destructive]========== -->
+	<PawnKindDef ParentName="VillagerBase">
+		<defName>ESCP_Industrial_DwemerVillager</defName>
+		<!-- Dwemer stuff -->
+		<race>ESCP_DwemerRace</race>
+		<defaultFactionType>ESCP_Industrial_DwemerNonPlayerFaction_Civil</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>Outlander</li>
+					<li>ESCP_DwemerBackstory_Childhood</li>
+					<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Outlander</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodMage</li>
+					<li>ESCP_DwemerBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DwemerBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_DwemerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<!-- ==========[ESCP_Industrial_DwemerGrenadier_Destructive]========== -->
+	<PawnKindDef ParentName="GuardBase">
+		<defName>ESCP_Industrial_DwemerTown_Guard</defName>
+		<!-- Dwemer stuff -->
+		<race>ESCP_DwemerRace</race>
+		<defaultFactionType>ESCP_Industrial_DwemerNonPlayerFaction_Civil</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>Outlander</li>
+					<li>ESCP_DwemerBackstory_Childhood</li>
+					<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Outlander</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodMage</li>
+					<li>ESCP_DwemerBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DwemerBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_DwemerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<!-- ==========[ESCP_Industrial_DwemerGrenadier_Destructive]========== -->
+	<PawnKindDef ParentName="TraderBase">
+		<defName>ESCP_Industrial_DwemerTown_Trader</defName>
+		<xenotypeSet Inherit="False"/>
+		<!-- Dwemer stuff -->
+		<race>ESCP_DwemerRace</race>
+		<defaultFactionType>ESCP_Industrial_DwemerNonPlayerFaction_Civil</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>Outlander</li>
+					<li>ESCP_DwemerBackstory_Childhood</li>
+					<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Outlander</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodMage</li>
+					<li>ESCP_DwemerBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DwemerBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_DwemerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+	<!-- ==========[ESCP_Industrial_DwemerGrenadier_Destructive]========== -->
+	<PawnKindDef ParentName="CouncilmanBase">
+		<defName>ESCP_Industrial_DwemerTown_Councilman</defName>
+		<!-- Dwemer stuff -->
+		<race>ESCP_DwemerRace</race>
+		<defaultFactionType>ESCP_Industrial_DwemerNonPlayerFaction_Civil</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categoriesChildhood>
+					<li>Outlander</li>
+					<li>ESCP_DwemerBackstory_Childhood</li>
+					<li>ESCP_GenericBackstory_ChildhoodMedieval</li>
+				</categoriesChildhood>
+				<categoriesAdulthood>
+					<li>Outlander</li>
+					<li>ESCP_GenericBackstory_AdulthoodMedieval</li>
+					<li>ESCP_GenericBackstory_AdulthoodMage</li>
+					<li>ESCP_DwemerBackstory_Adulthood</li>
+				</categoriesAdulthood>
+				<excludeChildhood>
+					<li>ESCP_DwemerBackstory_Exclusion</li>
+				</excludeChildhood>
+				<excludeAdulthood>
+					<li>ESCP_DwemerBackstory_Exclusion</li>
+				</excludeAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+</Defs>
