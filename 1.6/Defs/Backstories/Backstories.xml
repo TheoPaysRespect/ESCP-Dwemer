@@ -319,7 +319,7 @@
         <defName>ESCP_Dwemer_Adulthood_SocialD</defName>
         <title>rare artifact collector</title>
         <titleShort>collector</titleShort>
-        <description>[PAWN_nameDef] was obsessed with the intricancies of daedric artifacts, going to great lengths to get [PAWN_possessive] hands on them. Eventually, [PAWN_possessive] began to bargain with the daedric princes [PAWN_objective]self, believing to be smart enough to trick each one and still avoid their spheres after death.</description>
+        <description>[PAWN_nameDef] was obsessed with the intricancies of daedric artifacts, going to great lengths to get [PAWN_possessive] hands on them. Eventually, [PAWN_pronoun] began to bargain with the daedric princes [PAWN_objective]self, believing to be smart enough to trick each one and still avoid their spheres after death.</description>
         <skillGains>
             <Crafting>2</Crafting>
             <Social>4</Social>
