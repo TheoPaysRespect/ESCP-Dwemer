@@ -7,12 +7,20 @@
 		<thingDefStyles>
 			<li>
 				<thingDef>SculptureSmall</thingDef>
-				<styleDef>Dwemeri_SculptureSmall</styleDef>
+				<styleDef>ESCP_Dwemeri_SculptureSmall</styleDef>
+			</li>
+			<li>
+				<thingDef>SculptureLarge</thingDef>
+				<styleDef>ESCP_Dwemeri_SculptureLarge</styleDef>
 			</li>
 			<li>
 				<thingDef>SculptureGrand</thingDef>
-				<styleDef>Dwemeri_SculptureGrand</styleDef>
+				<styleDef>ESCP_Dwemeri_SculptureGrand</styleDef>
 			</li>
+			<li>
+                <thingDef>Wall</thingDef>
+                <styleDef>ESCP_Dwemeri_Wall</styleDef>
+            </li>
 		</thingDefStyles>
 	</StyleCategoryDef>
 </Defs>
