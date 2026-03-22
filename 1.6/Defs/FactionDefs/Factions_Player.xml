@@ -11,6 +11,7 @@
 		</allowedCultures>
 		<startingResearchTags>
 			<li>ESCP_DwemerStart_Industrial</li>
+			<li MayRequire ="sirmashedpotato.ashlands">Mashed_Ashlands_AshlandBasic</li>
 		</startingResearchTags>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionProperties">
@@ -32,6 +33,7 @@
 		</allowedCultures>
 		<startingResearchTags>
 			<li>ESCP_DwemerStart_Medieval</li>
+			<li MayRequire ="sirmashedpotato.ashlands">Mashed_Ashlands_AshlandBasic</li>
 		</startingResearchTags>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionProperties">
@@ -53,6 +55,7 @@
 		</allowedCultures>
 		<startingResearchTags>
 			<li>ESCP_DwemerStart_Tribal</li>
+			<li MayRequire ="sirmashedpotato.ashlands">Mashed_Ashlands_AshlandBasic</li>
 		</startingResearchTags>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.FactionProperties">
