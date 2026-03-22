@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<StyleCategoryDef>
 		<defName>ESCP_DwemerStyle</defName>
 		<label>Dwemeri</label>
 		<iconPath>World/WorldObjects/Expanding/ESCP_DwemerSettlement</iconPath>
-		<!--
-		<soundOngoingRitual>RitualSustainer_Hindu</soundOngoingRitual>
-		<ritualVisualEffectDef>Hindu</ritualVisualEffectDef>
-		-->
 		<thingDefStyles>
-		
+			<li>
+				<thingDef>SculptureSmall</thingDef>
+				<styleDef>Dwemeri_SculptureSmall</styleDef>
+			</li>
+			<li>
+				<thingDef>SculptureGrand</thingDef>
+				<styleDef>Dwemeri_SculptureGrand</styleDef>
+			</li>
 		</thingDefStyles>
 	</StyleCategoryDef>
 </Defs>
