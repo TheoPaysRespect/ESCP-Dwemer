@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="FurnitureWithQualityBase">
+        <defName>ESCP_DwemerPuzzleBox</defName>
+        <label>Dwemer puzzle box</label>
+        <description>A metallic box with intricate design that needs to be deciphered to open it. The dwemer liked to put them in rooms that are easily overlooked.</description>
+        <graphicData>
+            <texPath>Things/Joy/ESCP_Dwemer_Cube</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <castEdgeShadows>false</castEdgeShadows>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <rotatable>false</rotatable>
+        <socialPropernessMatters>false</socialPropernessMatters>
+        <fillPercent>0.3</fillPercent>
+        <building>
+            <joyKind>Meditative</joyKind>
+            <paintable>true</paintable>
+            <isEdifice>false</isEdifice>
+        </building>
+        <clearBuildingArea>false</clearBuildingArea>
+        <researchPrerequisites>
+            <li MayRequire="vr.fantasy.biotech">VR_BasicConstructTech</li>
+        </researchPrerequisites>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToBuild>8000</WorkToBuild>
+            <Mass>5</Mass>
+            <Flammability>0</Flammability>
+            <Beauty>5</Beauty>
+            <JoyGainFactor>1</JoyGainFactor>
+        </statBases>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+        <passability>PassThroughOnly</passability>
+        <designationCategory>Joy</designationCategory>
+    </ThingDef>
+
+    <JobDef>
+        <defName>ESCP_Ponder_Cube</defName>
+        <driverClass>JobDriver_WatchBuilding</driverClass>
+        <reportString>deciphering the box.</reportString>
+        <joyDuration>4000</joyDuration>
+        <joyMaxParticipants>1</joyMaxParticipants>
+        <joySkill>Intellectual</joySkill>
+        <joyXpPerTick>0.005</joyXpPerTick>
+        <joyKind>Meditative</joyKind>
+        <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    </JobDef>
+
+    <JoyGiverDef>
+        <defName>ESCP_Ponder_Cube</defName>
+        <giverClass>JoyGiver_WatchBuilding</giverClass>
+        <baseChance>2</baseChance>
+        <thingDefs>
+            <li>ESCP_DwemerPuzzleBox</li>
+        </thingDefs>
+        <jobDef>ESCP_Ponder_Cube</jobDef>
+        <desireSit>false</desireSit>
+        <joyKind>Meditative</joyKind>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+    </JoyGiverDef>
+</Defs>

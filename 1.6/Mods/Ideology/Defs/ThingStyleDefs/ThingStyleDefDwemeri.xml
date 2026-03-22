@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingStyleDef>
+        <defName>Dwemeri_SculptureSmall</defName>
+        <graphicData>
+            <texPath>Things/Building/BuildingStyles/Dwemeri/Sculptures/Small</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+
+    <ThingStyleDef>
+        <defName>Dwemeri_SculptureGrand</defName>
+        <graphicData>
+            <texPath>Things/Building/BuildingStyles/Dwemeri/Sculptures/Grand</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <drawSize>(4,4)</drawSize>
+        </graphicData>
+    </ThingStyleDef>
+</Defs>
